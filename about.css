@@ -1,0 +1,42 @@
+.about_body {
+  background-color: #191923;
+  margin: 70px 40px;
+  display: flex;
+}
+
+.left {
+  font-size: 40px;
+  font-family: tilt neon;
+  width: 400px;
+  display: flex;
+}
+
+.right {
+  margin-left: 400px;
+}
+
+.ques {
+  display: flex;
+  justify-content: space-between;
+  min-width: 500px;
+}
+
+.test {
+  font-size: 20px;
+  font-family: tilt neon;
+  display: block;
+  border-bottom: 1px;
+  border-top: 0px;
+  border-color: white;
+  margin-bottom: 30px;
+}
+
+.arrow {
+  height: 30px;
+}
+
+.ans {
+  font-size: 17px;
+  font-family: arial;
+  margin-right: 45px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="about.html" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="join.html" />
+    <link rel="stylesheet" href="join.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat&family=Dancing+Script&family=Inter:wght@300&family=Satisfy&family=Shadows+Into+Light&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat&family=Dancing+Script&family=Satisfy&family=Shadows+Into+Light&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="join_body">
+    <div class="main_body">
+      <form action="/action_page.php" method="post">
+        <div class="sign_in_heading">Sign In/Login</div>
+
+        <div class="container">
+          <label for="uname"> Roll No. </label>
+
+          <input
+            class="input_signin"
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+            required
+          />
+
+          <label for="psw"> Password </label>
+
+          <input
+            class="input_signin"
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <button class="button_sign" type="submit">Login</button>
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember" /> Remember
+            me
+          </label>
+        </div>
+
+        <div class="container" style="background-color: #f1f1f1">
+          <a href="index.html">
+            <button type="button" class="backbtn">Back</button>
+          </a>
+
+          <button class="forgot_psw" type="button" onclick="pswFunction()">
+            Forgot
+            <a href="#"> password? </a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
